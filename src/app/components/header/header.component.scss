@@ -1,0 +1,24 @@
+.header{
+    background-color: #2E183F;
+    height: 70px;
+    padding-top:22px;
+    padding-left: 22px; 
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.12);
+    .input-search{
+        background-color: white;
+        width: 400px;
+        padding: 4px;
+        input{
+            border: none;
+            width: 92%;
+            height: 100%;
+            font-size: 14px;
+        }
+        textarea:focus, input:focus, select:focus {
+            box-shadow: 0 0 0 0;
+            border: 0 none;
+            outline: 0;
+        } 
+    }
+    
+}
